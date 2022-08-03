@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_module_ariel (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_module_ariel/.ios/Flutter/engine`)
+  - flutter_module_ariel (from `../flutter_module_ariel/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module_ariel/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_module_ariel/.ios/Flutter/engine"
+  flutter_module_ariel:
+    :path: "../flutter_module_ariel/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module_ariel/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  flutter_module_ariel: bfb3f0440647dd4f5e951f8c9b5304ee33248598
+  FlutterPluginRegistrant: d3a0fbc12bc47787a12fcc919193f3959aa7d5ad
+
+PODFILE CHECKSUM: cbdecd36ce05297fcc7baa9432493a0dca4e1dde
+
+COCOAPODS: 1.11.2

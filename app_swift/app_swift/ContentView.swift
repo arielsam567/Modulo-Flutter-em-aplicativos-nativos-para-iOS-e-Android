@@ -28,8 +28,10 @@ func signIn() {
     
     let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil);
     
-    UIApplication.shared.keyWindow?.rootViewController?.present(flutterViewController, animated: true, completion: nil)
+//    UIApplication.shared.keyWindow?.rootViewController?.present(flutterViewController, animated: true, completion: nil)
 
+    UIApplication.shared.keyWindow?.rootViewController?.present(flutterViewController, animated: true, completion: nil)
+    
     //present(flutterViewController, animated: true, completion: nil)
     
 }
