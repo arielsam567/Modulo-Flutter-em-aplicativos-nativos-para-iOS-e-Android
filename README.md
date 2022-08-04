@@ -11,7 +11,7 @@
 
 ## Criando o modulo Flutter 
 ```shell
-$ flutter create -t module flutter_app
+$ flutter create -t module modulo_flutter
 $ cd modulo_flutter
 $ flutter pub get
 ```
@@ -67,8 +67,6 @@ dependencies {
 ```xml
 [...]
 
-<activity android:name=".CustomFlutterActivy"></activity>
-
 <activity
     android:name="io.flutter.embedding.android.FlutterActivity"
     android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -78,7 +76,7 @@ dependencies {
 [...]
 ```
 
-### 4. Crienado um botãO para abrir uma tela do flutter - app/src/main/res/layout/activity_main.xml
+### 4. Crienado um botão para abrir uma tela do flutter - app/src/main/res/layout/activity_main.xml
 ```xml
     <Button
         android:id="@+id/button"
@@ -261,6 +259,6 @@ class CombineVC: ViewController{
 ```
 
 
-# Result
+# Resultado
 ![](flutter-in-android-app.gif)
 ![](flutter-in-ios-app.gif) 
