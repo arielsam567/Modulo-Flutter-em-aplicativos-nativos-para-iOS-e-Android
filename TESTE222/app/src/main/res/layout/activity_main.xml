@@ -26,7 +26,7 @@
         android:layout_marginTop="57dp"
         android:layout_marginEnd="156dp"
         android:onClick="onButtonClick"
-        android:text="Button a"
+        android:text="Abrir tela Flutter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView" />

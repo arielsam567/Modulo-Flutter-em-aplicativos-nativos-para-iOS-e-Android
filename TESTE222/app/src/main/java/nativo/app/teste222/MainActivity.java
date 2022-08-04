@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View view) {
-        System.out.println("CLICK ffff FFFF");
+        System.out.println("CLICK TO OPPEN");
         startActivity(
                 ///DEMORA PARA ABRIR A NOVA TELA
                 //FlutterActivity.createDefaultIntent(this)
